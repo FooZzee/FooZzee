@@ -1,6 +1,5 @@
 <div align="center">
 
-<!-- Твой фирменный логотип из корня репозитория FooZzee/FooZzee -->
 <img src="./logo.png" width="148" height="148" alt="FooZzee Logo" />
 
 # FooZzee
@@ -14,11 +13,6 @@ Live Sim-Racing & Trucking Streams · Telemetry HUD Overlays · OBS Studio Tools
 [![Telegram](https://img.shields.io/badge/Telegram-foozzeestream-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/foozzeestream)
 [![VK](https://img.shields.io/badge/VK-gtfun-0077FF?style=flat&logo=vk&logoColor=white)](https://vk.ru/gtfun)
 
-<br>
-
-[![Поддержать проект](https://img.shields.io/badge/Поддержать_проект-FF5E5B?style=for-the-badge&logo=heart&logoColor=white)](https://www.donationalerts.com/r/foozzee)
-[![Support Project](https://img.shields.io/badge/Support_Project-FF5E5B?style=for-the-badge&logo=heart&logoColor=white)](https://www.donationalerts.com/r/foozzee)
-
 </div>
 
 ---
@@ -31,39 +25,46 @@ Live Sim-Racing & Trucking Streams · Telemetry HUD Overlays · OBS Studio Tools
 
 ---
 
-### `// FEATURED RELEASE`
+### `// FLAGSHIP PROJECT — STREAM OVERLAY COCKPIT PRO`
 
-<table>
-  <tr>
-    <td width="65%" valign="top">
-      <h3><a href="https://github.com/FooZzee/ETS2-ATS-Cockpit-Stream-Overlay">ETS2 / ATS Cockpit Telemetry Stream Overlay</a></h3>
-      <p>Модульный телеметрический оверлей реального времени для OBS Browser Source с 5 темами приборных панелей (тягачи и туристические автобусы), интеграцией чата, интерактивными командами и приёмом донатов.</p>
-      <ul>
-        <li><b>5 сменных HUD-тем:</b> Classic Cockpit, Torpedo Pro, Scania Touring, MAN Lion's Coach, Volvo 9700 DD</li>
-        <li><b>Интерактивный чат и события:</b> маршруты, ставки на рейс, пневмогудок, CB-рация, штрафы и телеметрия SDK</li>
-        <li><b>Автоматизация для Windows:</b> WPF-конфигуратор, нативный установщик, автообновление и C++ / UDP-мост</li>
-      </ul>
-      <p>
-        <a href="https://github.com/FooZzee/ETS2-ATS-Cockpit-Stream-Overlay/releases/latest">
-          <img src="https://img.shields.io/badge/Download_Latest_Release-D97706?style=flat&logo=github&logoColor=white" alt="Download Release" />
-        </a>
-        <a href="https://github.com/FooZzee/ETS2-ATS-Cockpit-Stream-Overlay">
-          <img src="https://img.shields.io/badge/Source_&_Docs-1E293B?style=flat&logo=bookstack&logoColor=white" alt="Docs" />
-        </a>
-      </p>
-    </td>
-    <td width="35%" valign="top">
-      <b>Core Architecture</b>
-      <br><br>
-      <img src="https://img.shields.io/badge/OBS_Studio-Browser_Source-302E31?style=flat&logo=obsstudio&logoColor=white" /><br>
-      <img src="https://img.shields.io/badge/SCS_SDK-Telemetry_x64-0F172A?style=flat" /><br>
-      <img src="https://img.shields.io/badge/Frontend-HTML5_%7C_CSS3_%7C_JS-1E293B?style=flat" /><br>
-      <img src="https://img.shields.io/badge/Native-C++_%7C_PowerShell_WPF-1E293B?style=flat" /><br>
-      <img src="https://img.shields.io/badge/Integrations-Twitch_%7C_DonationAlerts-9146FF?style=flat" /><br>
-      <img src="https://img.shields.io/badge/License-Proprietary_Freeware-B91C1C?style=flat" />
-    </td>
-  </tr>
-</table>
+**Stream Overlay Cockpit Pro** (`Stream_Overlay_Cockpit_Pro`) — профессиональный модульный HUD-оверлей реального времени для **OBS Browser Source**, объединяющий телеметрию грузовика/автобуса, живой чат стрима, интерактивные звуковые команды зрителей и систему оповещений о донатах в едином высококонтрастном интерфейсе.
+
+#### Ключевые возможности / Key Features
+
+| Модуль / Module | Описание / Description |
+| :--- | :--- |
+| **5 сменных HUD-тем кокпита** | **Classic Cockpit**, **Torpedo Pro**, **Scania Touring**, **MAN Lion's Coach**, **Volvo 9700 DD** — с плотными непрозрачными подложками для идеальной читаемости днём и ночью в OBS Studio. |
+| **Телеметрия SCS SDK & C++ / UDP** | Передача скорости, оборотов (RPM), передач, топлива, навигации, лимитов скорости, повреждений, штрафов и событий рейса без задержек. |
+| **Живой чат и интерактив зрителей** | Интеграция **Twitch IRC** *(VK Видео Live — в разработке)*, голосование и ставки на безаварийный рейс (`!ставка`), пневмогудок (`!гудок`), CB-рация (`!рация`), маршрут и статистика с кастомными звуками и карточками тостов. |
+| **Оповещения DonationAlerts** | Прямое подключение к **DonationAlerts** с кастомными звуками и мгновенным отображением донатов поверх игрового HUD. |
+| **Нативные утилиты Windows (WPF)** | Визуальный конфигуратор (`configurator.ps1`), пошаговый мастер установки (`installer.ps1`), автообновление (`updater.ps1`) и автоматическая сборка/установка SDK-плагина. |
+
+---
+
+### `// КАК ПОЛУЧИТЬ ДОСТУП / HOW TO GET ACCESS (PAY WHAT YOU WANT)`
+
+Проект **Stream Overlay Cockpit Pro** распространяется по модели свободного пожертвования (**кто сколько даст**) в закрытом репозитории **`FooZzee/Stream_Overlay_Cockpit_Pro`** с персональным доступом к актуальным релизам и обновлениям.
+
+<div align="center">
+
+<br>
+
+[![Получить доступ через DonationAlerts](https://img.shields.io/badge/Поддержать_и_получить_доступ-FF5E5B?style=for-the-badge&logo=heart&logoColor=white)](https://www.donationalerts.com/r/foozzee)
+[![Support & Get Access on DonationAlerts](https://img.shields.io/badge/Support_%26_Get_Access-FF5E5B?style=for-the-badge&logo=heart&logoColor=white)](https://www.donationalerts.com/r/foozzee)
+
+<br>
+
+</div>
+
+#### Инструкция в 3 шага / 3-Step Access Guide
+
+1. **Отправьте любое комфортное пожертвование** (кто сколько посчитает нужным) по кнопке выше через **[DonationAlerts](https://www.donationalerts.com/r/foozzee)**.
+2. **В комментарии к донату обязательно укажите:**
+   - **Ваш точный ник (username) на GitHub** (например: `GitHub: YourNickname`);
+   - **Точное время отправки пожертвования** (с часовым поясом, например: `18:45 МСК`), чтобы я мог быстро сверить платёж.
+3. **Примите приглашение на GitHub:** после проверки платежа я выдам вашему аккаунту доступ к закрытому репозиторию **`Stream_Overlay_Cockpit_Pro`** (уведомление придёт на почту, привязанную к GitHub, и в раздел *Notifications*).
+
+> **English:** Send any amount you feel is fair via **[DonationAlerts](https://www.donationalerts.com/r/foozzee)**. In the donation message, be sure to include **your exact GitHub username** and the **exact timestamp of your donation** (with timezone) so I can verify it and grant your account access to the private **`Stream_Overlay_Cockpit_Pro`** repository.
 
 ---
 
